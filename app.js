@@ -93,7 +93,7 @@ function renderTable(data = dataMahasiswa) {
             <td><strong>${mhs.npm}</strong></td>
             <td>${mhs.nama}/td>
             <td><span class="badge">${nama.program_studi}</span></td>
-            <td>${mmhs.angkatan}</td>
+            <td>${mhs.angkatan}</td>
             <td><a href="mailto:${mhs.email}" class="link-email">${mhs.email}</a></td>
             <td>
                 <button type="button" class="btn btn-danger btn-sm" onclick="hapusMahasiswa('${mhs.npm}')>
